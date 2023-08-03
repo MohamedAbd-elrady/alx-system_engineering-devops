@@ -1,1 +1,1 @@
-# This folder will be about shell permissions and i will explane every script
+This repository is about shell tasks
