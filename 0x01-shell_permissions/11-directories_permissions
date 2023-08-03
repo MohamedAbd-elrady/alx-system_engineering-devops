@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir --mode=a+x
+mkdir --mode=x
