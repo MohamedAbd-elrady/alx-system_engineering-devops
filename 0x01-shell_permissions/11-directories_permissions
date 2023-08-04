@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir --mode=x .
+find . -type d -exec chmod a+x {} \
