@@ -8,7 +8,7 @@ minutes="1"
 
 echo "Hour: 0";
 
-while [ $hours -lt 12 ]
+while [ $hours -lt 11 ]
 do
     echo "$minutes"
 
