@@ -8,14 +8,17 @@ minutes="1"
 
 echo "Hour: 0";
 
-while [ $hours -lt 11 ]
+while [ $hours -le 12 ]
 do
     echo "$minutes"
 
     if [ $minutes -eq 59 ]
     then
         (( hours++ ));
-        echo "Hour: $hours";
+        if [ $hours -lt 13 ]
+        then
+            echo "Hour: $hours";
+        fi
         (( minutes=0 ));
     fi
 
